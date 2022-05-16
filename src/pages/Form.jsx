@@ -12,7 +12,7 @@ function Form() {
     }, [])
 
   return (
-    <div>
+    <div className='search'>
       <input 
         id="outlined-basic" 
         label="Enter city name" 

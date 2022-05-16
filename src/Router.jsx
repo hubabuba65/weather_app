@@ -9,7 +9,7 @@ function Router() {
 
   return (
     <main>
-      <div className={main ? (main.temp > 15 ? 'app warm' : 'app') : null}>
+      <div className='app '>
         <Form />
         <WeatherInfo />
       </div>
